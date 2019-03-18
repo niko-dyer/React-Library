@@ -6,6 +6,7 @@ import NoMatch from './pages/NoMatch'
 import Navbar from './components/Navbar'
 import Game from './pages/Game'
 import Flashcards from './pages/FlashApp'
+import './App.css'
 import { Container } from 'semantic-ui-react'
 
 const App = () => (

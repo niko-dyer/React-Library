@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import { Route, Switch } from 'react-router-dom'
 import Flashcards from './Flashcards'
 import FlashcardForm from './FlashcardForm'
 import { Container, Header, Button, Icon, Segment } from 'semantic-ui-react'
@@ -7,9 +6,9 @@ import { Container, Header, Button, Icon, Segment } from 'semantic-ui-react'
 class App extends React.Component {
   state = {
     flashcards: [
-      { id: 1, question: 'Does this work?', answer: 'Not yet' },
-      { id: 2, question: 'Test', answer: 'Testing' },
-      { id: 3, question: 'Test2', answer: 'Testing2' }
+      { id: 1, question: 'Who was the legendary Benedictine monk who invented champagne?', answer: 'Dom Perignon' },
+      { id: 2, question: 'Where would you find the Sea of Tranquility?', answer: 'The Moon' },
+      { id: 3, question: 'Who played Neo in The Matrix?', answer: 'Keanu Reeves' }
     ],
     showForm: false
   }

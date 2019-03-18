@@ -5,8 +5,8 @@ import { Container, Header, Icon } from 'semantic-ui-react'
 class App extends Component {
   render() {
     return (
-      <Container className="App">
-        <Header as='h1' icon >
+      <Container style={{textAlign: 'center'}}>
+        <Header as='h1' icon>
           <Icon name='hand rock outline' circular />
           <Header.Content>Rock, Paper, Scissors</Header.Content>
         </Header>
